@@ -2,7 +2,8 @@
     font-weight: 900;
     font-size: 64px;
     text-align: center;
-    margin-bottom: 80px;
+    margin: 0 auto 80px;
+    max-width: 535px;
 }
 
 .our-chefs__title-highlight {
@@ -10,12 +11,26 @@
     color: var(--color-our-chefs-title-highlight);
 }
 
+.our-chefs__title::before,
+.our-chefs__title::after {
+    content: '';
+    display: block;
+    width: 352px;
+    border: 2px solid var(--color-our-chefs-decoration);
+} 
+
 .our-chefs__list {
     list-style-type: none;
+    display: flex;
 }
 
 .our-chefs__item {
     color: var(--color-our-chefs-text-highlight);
+}
+
+.our-chefs__image {
+    border-radius: 4px 4px 4px 200px;
+    box-shadow: -16px 16px 0 0 var(--color-body-background), -16px 16px 0 1px var(--color-our-chefs-shadow);
 }
 
 .our-chefs__name {
