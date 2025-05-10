@@ -1,0 +1,17 @@
+.header-advantages-list {
+    padding: 16px 0;
+    background-color: var(--background-color-hero-list);
+}
+
+.header-advantages-list__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header-advantages-list__item {
+    color: var(--background-color-hero-item);
+    font-size: 20px;
+    font-weight: 300;
+}

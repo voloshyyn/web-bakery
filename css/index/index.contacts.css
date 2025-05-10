@@ -1,0 +1,12 @@
+.contacts__title {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    color: var(--color-contacts-title);
+}
+
+.contacts__subtitle {
+    line-height: 100%;
+    color: var(--color-contacts-subtitle);
+    margin-bottom: 42px;
+}

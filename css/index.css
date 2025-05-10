@@ -1,0 +1,9 @@
+@import "global.css";
+@import "./global/global.header-nav.css";
+@import "./index/index.header-hero.css";
+@import "./index/index.header-advantages-list.css";
+@import "./index/index.about-tradition.css";
+@import "./index/index.our-chefs.css";
+@import "./index/index.formats.css";
+@import "./index/index.contacts.css";
+@import "./global/global.footer.css";

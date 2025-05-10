@@ -1,0 +1,25 @@
+.formats__title {
+    font-weight: 900;
+    font-size: 64px;
+    color: var(--color-formats-title);
+    text-align: center;
+}
+
+.formats__list {
+    list-style-type: none;
+}
+
+.formats__name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 16px;
+    color: var(--color-formats-name);
+}
+
+.formats__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--color-formats-description);
+}

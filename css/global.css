@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--color-h2: rgba(49, 38, 26, 1);
+--color-header-link: rgba(250, 244, 234, 1);
+--color-header-link-hover: rgba(129, 155, 87, 1);
+--color-background-button: rgba(129, 155, 87, 1);
+--color-text-button: rgba(250, 244, 234, 1);
+--color-text-button-hover: rgba(70, 89, 41, 1);
+--color-header-hero-title-first: rgba(129, 155, 87, 1);
+--color-header-hero-title-last: rgba(250, 244, 234, 1);
+--background-color-hero-list: rgba(129, 155, 87, 1);
+--background-color-hero-item: rgba(250, 244, 234, 1);
+--color-traditions-highlight: rgba(129, 155, 87, 1);
+--color-our-chefs-title-highlight: rgba(70, 89, 41, 1);
+--color-our-chefs-text-highlight: rgba(49, 38, 26, 1);
+--color-formats-title: rgba(49, 38, 26, 1);  
+--color-formats-name: rgba(250, 244, 234, 1);  
+--color-formats-description: rgba(250, 244, 234, 1);
+--color-contacts-title: rgba(49, 38, 26, 1);
+--color-contacts-subtitle: rgba(70, 89, 41, 1);
+--color-footer-nav-item: rgba(250, 244, 234, 1);
+--color-footer-contacts-item: rgba(250, 244, 234, 1);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.section {
+    padding: 48px 0;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    margin-top: 0;
+}
+
+h2 {
+    color: var(--color-h2);
+}
+

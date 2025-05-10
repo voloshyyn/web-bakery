@@ -1,0 +1,13 @@
+.header-hero__title {
+    font-size: 128px;
+    font-weight: 900;
+    color: var(--color-header-hero-title-last);
+    text-align: center;
+    padding: 272px 0;
+}
+
+.header-hero__title-first {
+    color: var(--color-header-hero-title-first);
+}
+
+

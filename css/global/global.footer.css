@@ -1,0 +1,28 @@
+.footer__nav-list, .footer__contacts-list {
+    list-style-type: none;
+}
+
+.footer__nav-item {
+    margin-bottom: 16px;
+}
+
+.footer__nav-link {
+    color: var(--color-footer-nav-item);
+    text-decoration: none;
+}
+
+.footer__contacts-item, .footer__copyright, 
+ .footer__privacy-policy {
+    font-style: normal;
+    margin-bottom: 16px;
+    
+}
+
+.footer__contacts-link, .footer__copyright,
+.footer__privacy-policy-item {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--color-footer-contacts-item);
+    text-decoration: none;
+}
